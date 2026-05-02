@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DKS - Serviços</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+     <header>
+        <nav class="container">
+            <div class="logo"><img src="img/logodksystems.png" alt="" width="100px"><span>ystems</span> </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="servicos.html" class="active">Serviços</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+            <div class="house-icon">
+                <a href="index.html"><i class="fa-solid fa-house"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="banner-servicos">
+        <span>SOLUÇÕES TÉCNICAS</span>
+     </div>
+     
+     <div class="banner-servicos02">
+        <h1>Serviços Especializados</h1>
+        <p>Manutenção de hardware e desenvolvimento de sistemas com garantia de qualidade.</p>
+    </div>
+
+    <div class="grid-servicos">
+        <div class="card-servico" style="background-image: url(img/serviço01.png);">
+            <div class="icon-area">🛠️</div>
+            <h3>Limpeza Técnica Profunda</h3>
+            <p>Remoção completa de poeira, limpeza de contatos e organização interna para melhor fluxo de ar.</p>
+            <ul class="detalhes-servico">
+                <li>Limpeza de fans</li>
+                <li>Desoxidação de componentes</li>
+            </ul>
+            <button class="btn-contatoser" onclick="solicitarServico('Limpeza Técnica')">
+                 <i class="fab fa-whatsapp"></i> Solicitar Orçamento</button>
+        </div>
+
+        <div class="card-servico" style="background-image: url(img/serviço02.png);">
+            <div class="icon-area">🌡️</div>
+            <h3>Troca de Pasta Térmica</h3>
+            <p>Aplicação de pasta térmica de alta condutividade para reduzir temperaturas e aumentar a vida útil.</p>
+            <ul class="detalhes-servico">
+                <li>CPU e GPU</li>
+                <li>Thermal pads inclusos</li>
+            </ul>
+            <button class="btn-contatoser" onclick="solicitarServico('Troca de Pasta Térmica')">
+                 <i class="fab fa-whatsapp"></i> Solicitar Orçamento</button>
+        </div>
+
+        <div class="card-servico" style="background-image: url(img/serviço03.png);">
+            <div class="icon-area">💻</div>
+            <h3>Criação de Sistemas Web</h3>
+            <p>Desenvolvimento de landing pages, portfólios e sistemas personalizados como este site.</p>
+            <ul class="detalhes-servico">
+                <li>Design Responsivo</li>
+                <li>HTML/CSS/JS Moderno</li>
+            </ul>
+            <button class="btn-contatoser" onclick="solicitarServico('Sistema Web')">
+                 <i class="fab fa-whatsapp"></i> Solicitar Orçamento</button>
+        </div>
+
+        <div class="card-servico" style="background-image: url(img/serviço04.png);">
+            <div class="icon-area">🚀</div>
+            <h3>Upgrade & Montagem</h3>
+            <p>Consultoria para compra de peças e montagem completa do seu setup do zero.</p>
+            <ul class="detalhes-servico">
+                <li>Cable Management</li>
+                <li>Instalação de OS</li>
+            </ul>
+            <button class="btn-contatoser" onclick="solicitarServico('Upgrade/Montagem')">
+                 <i class="fab fa-whatsapp"></i> Solicitar Orçamento</button>
+        </div>
+    </div>
+</main>
+
+     <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h3>DK-Systems</h3>
+                <p> Serviços, Criação de Sistemas Web e Manutenção de hardware. Sua oficina de tecnologia de confiança.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Links Rápidos</h4>
+                <a href="#">Sobre Nós</a>
+                <a href="#">Políticas de Garantia</a>
+                <a href="#">Termos de Uso</a>
+            </div>
+            <div class="footer-social">
+                <h4>Siga-nos</h4>
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+                <a href="">WhatsApp</a>
+            </div>
+        </div>
+        <p class="copyright">© 2026 DKS - Digital Kode Systems. Perifericos & Serviços WEB.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DKS - Produtos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+     <header>
+        <nav class="container">
+            <div class="logo"><img src="img/logodksystems.png" alt="" width="100px"><span>ystems</span> </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html" class="active">Produtos</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+            <div class="house-icon">
+                <a href="index.html"><i class="fa-solid fa-house"></i></a>
+            </div>
+        </nav>
+    </header>
+
+     <div class="banner-produtos">
+        <span>ESTOQUE DISPONÍVEL</span>
+     </div>
+     
+     <div class="banner-produtos02">
+        <h1>Hardware <span class="highlight">&</span> Periféricos</h1>
+        <p>Componentes certificados e testados com transparência total.</p>
+     </div>
+
+<main class="main-top-content">
+    <div class="grid-produtos">
+         <div class="card-produtos"> 
+            <div class="produto-imagem-container">
+                <img src="img/placadevideo.png" alt="Produto 01" class="produto-foto">
+                <span class="tag-estado">NOVO</span>
+            </div>
+        
+            <h3>Placa de Vídeo RTX 3060</h3>
+            <p>Em perfeito estado, com caixa original e limpeza técnica recém realizada.</p>
+            
+            <div class="preco-area">
+                <span class="label-preco">R$</span>
+                <span class="valor-preco">1.500,00</span>
+            </div>
+
+            <button class="btn-contato" onclick="comprarProduto('RTX 3060', '1.500,00')">
+                <i class="fab fa-whatsapp"></i> Comprar via WhatsApp
+            </button>
+        </div>
+
+        <div class="card-produtos"> 
+            <div class="produto-imagem-container">
+                <img src="img/gabinete.png" alt="Produto 01" class="produto-foto">
+                <span class="tag-estado">seminovo</span>
+
+            </div>
+            
+            
+            <h3>Gabinete Gamer ATX Torre</h3>
+            <p>Em perfeito estado, original e semi novo.</p>
+            
+            <div class="preco-area">
+                <span class="label-preco">R$</span>
+                <span class="valor-preco">375,00</span>
+            </div>
+
+            <button class="btn-contato" onclick="comprarProduto('RTX 3060', '1.500,00')">
+                <i class="fab fa-whatsapp"></i> Comprar via WhatsApp
+            </button>
+        </div>
+
+    </div>
+</main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h3>DK-Systems</h3>
+                <p>Especialistas em restauração e certificação de hardware. Sua oficina de tecnologia de confiança.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Links Rápidos</h4>
+                <a href="#">Sobre Nós</a>
+                <a href="#">Políticas de Garantia</a>
+                <a href="#">Termos de Uso</a>
+            </div>
+            <div class="footer-social">
+                <h4>Siga-nos</h4>
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+                 <a href="">WhatsApp</a>
+            </div>
+        </div>
+        <p class="copyright">© 2026 DKS - Digital Kode Systems. Perifericos & Serviços WEB.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
